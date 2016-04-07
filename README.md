@@ -31,10 +31,7 @@ Overview paragraph
 ---
 
 ### Supervised Learning
-
-
-
-
+Supervised learning stuff
 
 
 #### Artificial Neural Network (ANN)
@@ -42,10 +39,10 @@ See [Deep Learning](### Deep Learning)
 
 #### Averaged one-dependence estimators (AODE)
 
-'''python
+```python
 import magic_data_class as mdc
 print('This is the code block explaining AODE')
-'''
+```
 
 #### Bayesian Statistics
 
