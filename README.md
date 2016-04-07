@@ -5,15 +5,28 @@
 Put something here, probably change the name
 Kaggle, learning,.. etc.
 
+https://en.wikipedia.org/wiki/List_of_machine_learning_concepts
+
 ---
 
 ## Table of Contents or Something - Add Links
 
 ---
 
+## Data Techniques
+Talk about data, structure, cleanup, sources, etc
+
+k-folds other stuff
+
+---
+
 
 ## Machine Learning verus Data Science
 Paragraph
+
+---
+
+## Machine Learning Techniques
 
 ---
 
