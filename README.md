@@ -24,68 +24,171 @@ k-folds other stuff
 
 ---
 
-
-## Machine Learning verus Data Science
-Paragraph
-
----
-
 ## Machine Learning Techniques
+Overview paragraph
+
 
 ---
 
 ### Supervised Learning
-Paragraph about supervised learning
 
-#### Algorithm 1
 
-#### Algorithm 2
 
-#### Algorithm 3
 
-#### Algorithm 4
+
+
+#### Artificial Neural Network (ANN)
+See [Deep Learning](### Deep Learning)
+
+#### Averaged one-dependence estimators (AODE)
+
+'''python
+import magic_data_class as mdc
+print('This is the code block explaining AODE')
+'''
+
+#### Bayesian Statistics
+
+#### Case-based Reasoning
+
+#### Gaussian process regression
+
+#### Gene expression programming
+
+#### Group method of data handling (GMDH)
+
+#### Inductive Logic Programming
+
+#### Instance-based learning
+
+#### Lazy Learning
+
+#### Learning Automata
+
+#### Learning Vector Quantization
+
+#### Logistic Model Tree
+
+#### Minimum Message Length
+Decision Trees, Decision graphcs, etc
+
+#### Probably Approximately Correct Learning (PAC)
+
+#### Ripple Down Rules
+A knowledge acquisition methodology
+
+#### Support Vector Machines
+This should be a fairly large entry - Important
+
+#### Random Forests
+
+#### Ensemble Learning
+Bootstrap agrgregating
+Boosting
+
+#### Ordinal Classification
+
+#### Information Fuzzy Networks (IFN)
+
+#### Conditional Random Field
+
+#### ANOVA
+
+#### Linear Classifiers
+Lots of stuff here, more of a group
+need to rearrange this stuff by heirarchy
+
+#### Quadratic Classifiers
+
+#### NearestNeighbor
+
+
+#### Boosting
+
+#### Decision Trees
+Add all the different algorithms (or at least some)
+
+#### Bayesian Networks
+
+#### Hidden Markov Models
 
 ---
+
 
 ### Unsupervised Learning
 Paragraph about unsupervised learning
 
-#### Algorithm 1
+#### Expectation-maximization algorithm
 
-#### Algorithm 2
+#### Vector Quantization
 
-#### Algorithm 3
+#### Generative Topographic Map
 
-#### Algorithm 4
+#### Information Bottleneck Method
+
+
+#### Association Rule Learning
+* Apriori algorithm
+* Eclat algorithm
+* FP-growth algorithm
+
+#### Hierarchical Clustering
+* Single-linkage clustering
+* Conceptual clustering
+
+#### Cluster Analysis
+* K-means algorithm
+* Fuzzy clustering
+* DBSCAN
+* OPTICS algorithm
+
+#### Outlier detection
 
 ---
 
 ### Deep Learning
-Should probably be its own thing
+Explain neural networks/deep learning stuff here
+
+#### Deep belief networks
+
+#### Deep Boltzman Machines
+
+#### Deep Convoluational Neural Networks
+
+#### Deep Recurrent Neural Networks
+
+#### Hierarchical temporal memory
 
 ---
 
 ### Semi-supervised Learning
 Paragraph about semi-supervised learning
 
-#### Algorithm 1
+#### Generative models
 
-#### Algorithm 2
+#### Low-density separation
+
+#### Graph-based methods
+
+#### Co-training
 
 ---
 
 ### Reinforcement Learning
 Paragraph about semi-supervised learning
 
-#### Algorithm 1
+#### Temporal difference learning
 
-#### Algorithm 2
+#### Q-learning
+
+#### Learning Automata
+
+#### State-Action-Reward-State-Action (SARSA)
 
 ---
 
 ##TODO
 
-* Outline Readme
 * Write descriptions of main ideas/purposes of general classes of machine learning algorithms
 * add more details/break down the classes into subclasses
 * add in optimizations of the major algorithms (not a priority)
@@ -96,6 +199,7 @@ Paragraph about semi-supervised learning
 * talk about scalability/gpu speedup
 * add references
 * write working example code (probably for the benchmarks) - make it easily deployable to vagrant and/or EC2
-
+* Make abbrievated/priority version - not sure if this should be seperate or just
+change the ordering
 
 
