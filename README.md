@@ -41,7 +41,9 @@ Paragraph about unsupervised learning
 
 #### Algorithm 4
 
-#### Deep Learning
+---
+
+### Deep Learning
 Should probably be its own thing
 
 ---
