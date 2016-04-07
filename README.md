@@ -5,6 +5,10 @@
 Put something here, probably change the name
 Kaggle, learning,.. etc.
 
+This document might be too large, possibly break down into several different documents
+by topic. Links should solve any issues navigating
+
+
 https://en.wikipedia.org/wiki/List_of_machine_learning_concepts
 
 ---
