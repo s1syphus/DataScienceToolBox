@@ -12,7 +12,7 @@ https://en.wikipedia.org/wiki/List_of_machine_learning_concepts
 
 ## Table of Contents
 
-1. [Data Techniques](#data techniques)
+1. [Data Techniques](#data-techniques)
 2. [Machine Learning Techniques](#Machine-Learning-Techniques)
 	1. [Supervised Learning]
 		* [Artificial Neural Network (ANN)]
