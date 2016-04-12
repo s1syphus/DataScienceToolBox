@@ -1,186 +1,241 @@
 # DataScienceToolBox
 
 ---
-## Purpose Paragraph
-Put something here, probably change the name
-Kaggle, learning,.. etc.
+## Purpose Paragraph Put something here, probably change the name Kaggle, learning,.. etc.
 
 This document might be too large, possibly break down into several different documents
 by topic. Links should solve any issues navigating
-
 
 https://en.wikipedia.org/wiki/List_of_machine_learning_concepts
 
 ---
 
-## Table of Contents or Something - Add Links
+## Table of Contents
+
+1. [Data Techniques]
+2. [Machine Learning Techniques]
+	1. [Supervised Learning]
+		* [Artificial Neural Network (ANN)]
+		* [Averaged One-Dependence Estimators (AODE)]
+		* [Bayesian Statistics]
+		* [Case-Based Reasoning]
+		* [Gaussian Process Regression]
+		* [Gene Expression Programming]
+		* [Group Method of Data Handling (GMDH)]
+		* [Inductive Logic Programming]
+		* [Instance-Based Learning]
+		* [Lazy Learning]
+		* [Learning Vector Quantization]
+		* [Logistic Model Tree]
+		* [Minimum Message Length]
+		* [Probably Approximately Correct Learning (PAC)]
+		* [Ripple Down Rules]
+		* [Support Vector Machines (SVM)]
+		* [Random Forests]
+		* [Ensemble Learning]
+		* [Ordinal Classification]
+		* [Information Fuzzy Networks (IFN)]
+		* [Conditional Random Field]
+		* [ANOVA]
+		* [Linear Classifiers]
+		* [Quadratic Classifiers]
+		* [Nearest Neighbor]
+		* [Boosting]
+		* [Decision Trees]
+		* [Bayesian Networks]
+		* [Hidden Markov Models]
+	2. [Unsupervised Learning]
+		* [Expectation-Maximization Algorithm]
+		* [Vector Quantization]
+		* [Generative Topographic Map]
+		* [Information Bottleneck Method]
+		* [Association Rule Learning]
+		* [Hierarchical Clustering]
+		* [Cluster Analysis]
+		* [Outlier Detection]
+	3. [Deep Learning]
+		* [Deep Belief Networks]
+		* [Deep Boltzman Machines]
+		* [Deep Convolutional Neural Networks (CNN)]
+		* [Deep Recurrent Neural Networks (RNN)]
+		* [Hierarchical Temporal Memory]
+	4. [Semi-Supervised Learning]
+		* [Generative Models]
+		* [Low-Density Separation]
+		* [Graph-Based Methods]
+		* [Co-Training]
+	5. [Reinforcement Learning]
+		* [Temporal Difference Learning]
+		* [Q-Learning]
+		* [Learning Automata]
+		* [State-Action-Reward-State-Action (SARSA)]
+3. [Choosing the Right Algorithm]
+4. [Conclusion]
+
 
 ---
 
-## Data Techniques
+## Data Techniques ##
 Talk about data, structure, cleanup, sources, etc
 
 k-folds other stuff
 
+
 ---
 
-## Machine Learning Techniques
+## Machine Learning Techniques ##
 Overview paragraph
 
-
 ---
 
-### Supervised Learning
+## Supervised Learning ##
 Supervised learning stuff
 
 
-#### Artificial Neural Network (ANN)
-See [Deep Learning](### Deep Learning)
+## Artificial Neural Network (ANN) ##
+See [Deep Learning]
 
-#### Averaged one-dependence estimators (AODE)
+## Averaged One-Dependence Estimators (AODE) ##
 
-```python
-import magic_data_class as mdc
-print('This is the code block explaining AODE')
-```
+## Bayesian Statistics ##
 
-#### Bayesian Statistics
+## Case-Based Reasoning ##
 
-#### Case-based Reasoning
+## Gaussian Process Regression ##
 
-#### Gaussian process regression
+## Gene Expression Programming ##
 
-#### Gene expression programming
+## Group Method of Data Handling (GMDH) ##
 
-#### Group method of data handling (GMDH)
+## Inductive Logic Programming ##
 
-#### Inductive Logic Programming
+## Instance-Based Learning ##
 
-#### Instance-based learning
+## Lazy Learning ##
 
-#### Lazy Learning
+## Learning Automata ##
 
-#### Learning Automata
+## Learning Vector Quantization ##
 
-#### Learning Vector Quantization
+## Logistic Model Tree ##
 
-#### Logistic Model Tree
+## Minimum Message Length ##
 
-#### Minimum Message Length
-Decision Trees, Decision graphcs, etc
+## Probably Approximately Correct Learning (PAC) ##
 
-#### Probably Approximately Correct Learning (PAC)
-
-#### Ripple Down Rules
+## Ripple Down Rules ##
 A knowledge acquisition methodology
 
-#### Support Vector Machines
+## Support Vector Machines (SVM) ##
 This should be a fairly large entry - Important
 
-#### Random Forests
+## Random Forests ##
 
-#### Ensemble Learning
-Bootstrap agrgregating
-Boosting
+## Ensemble Learning ##
 
-#### Ordinal Classification
+## Ordinal Classification ##
 
-#### Information Fuzzy Networks (IFN)
+## Information Fuzzy Networks (IFN) ##
 
-#### Conditional Random Field
+## Conditional Random Field ##
 
-#### ANOVA
+## ANOVA ##
 
-#### Linear Classifiers
+## Linear Classifiers ##
 Lots of stuff here, more of a group
 need to rearrange this stuff by heirarchy
 
-#### Quadratic Classifiers
+## Quadratic Classifiers ##
 
-#### NearestNeighbor
+## Nearest Neighbor ##
 
+## Boosting ##
 
-#### Boosting
-
-#### Decision Trees
+## Decision Trees ##
 Add all the different algorithms (or at least some)
 
-#### Bayesian Networks
+## Bayesian Networks
 
-#### Hidden Markov Models
+## Hidden Markov Models
 
 ---
 
-
-### Unsupervised Learning
+## Unsupervised Learning
 Paragraph about unsupervised learning
 
-#### Expectation-maximization algorithm
+## Expectation-Maximization Algorithm
 
-#### Vector Quantization
+## Vector Quantization ##
 
-#### Generative Topographic Map
+## Generative Topographic Map ##
 
-#### Information Bottleneck Method
+## Information Bottleneck Method ##
 
 
-#### Association Rule Learning
+## Association Rule Learning
 * Apriori algorithm
 * Eclat algorithm
 * FP-growth algorithm
 
-#### Hierarchical Clustering
+## Hierarchical Clustering
 * Single-linkage clustering
 * Conceptual clustering
 
-#### Cluster Analysis
+## Cluster Analysis
 * K-means algorithm
 * Fuzzy clustering
 * DBSCAN
 * OPTICS algorithm
 
-#### Outlier detection
+## Outlier Detection
 
 ---
 
-### Deep Learning
+## Deep Learning ##
 Explain neural networks/deep learning stuff here
 
-#### Deep belief networks
+## Deep Belief Networks
 
-#### Deep Boltzman Machines
+## Deep Boltzman Machines
 
-#### Deep Convoluational Neural Networks
+## Deep Convolutional Neural Networks (CNN)
 
-#### Deep Recurrent Neural Networks
+## Deep Recurrent Neural Networks (RNN)
 
-#### Hierarchical temporal memory
-
----
-
-### Semi-supervised Learning
-Paragraph about semi-supervised learning
-
-#### Generative models
-
-#### Low-density separation
-
-#### Graph-based methods
-
-#### Co-training
+## Hierarchical Temporal Memory
 
 ---
 
-### Reinforcement Learning
+## Semi-Supervised Learning
 Paragraph about semi-supervised learning
 
-#### Temporal difference learning
+## Generative Models
 
-#### Q-learning
+## Low-Density Separation
 
-#### Learning Automata
+## Graph-Based Methods
 
-#### State-Action-Reward-State-Action (SARSA)
+## Co-Training
+
+---
+
+## Reinforcement Learning
+Paragraph about semi-supervised learning
+
+## Temporal Difference Learning
+
+## Q-Learning
+
+## Learning Automata
+
+## State-Action-Reward-State-Action (SARSA)
+
+
+## Choosing the Right Algorithm
+This is where the flow chart is going to go
+
+## Conclusion
+
 
 ---
 
