@@ -36,8 +36,16 @@ abbreviated, will do my best to provide sources/other resources.
 \chapter{Machine Learning Techniques}
 \section{Supervised Learning}
 	\subsection{Averaged One-Dependence Estimators (AODE)}
-Averaged One-Dependence Estimators is a probabilistic classification technique. It is an improvement on the \hyperref[subsec:bayesian_statistics]{Naive Bayes Estimator}. This technique produces class probabilities rather than single classes which allows more flexibility by having the end-user set the threshold for selection. The computational complexity for training is $O(ln^2)$ and $O(kn^2)$ for classificiation where $n$ is the number of features, $l$ is the number of training samples, and $k$ is the number of testing samples. \\
-Add in equation soon, too lazy to type it out now \\
+Averaged One-Dependence Estimators is a probabilistic classification technique. It is an improvement on the \hyperref[subsec:bayesian_statistics]{Naive Bayes Estimator}. This technique produces class probabilities rather than single classes which allows more flexibility by having the end-user set the threshold for selection. The computational complexity for training is $O(ln^2)$ and $O(kn^2)$ for classificiation where $n$ is the number of features, $l$ is the number of training samples, and $k$ is the number of testing samples. The equation for this classifier is as follows:\\
+$
+\hat{P}(y|x_1, ..., x_n) = \frac{
+\sum_{i:1 \leq i \leq n \wedge F(x_i) \geq m} \hat{P}(y,x_i) \Pi ^n _{j=1} \hat{P}(x_j | y, x_i)
+}
+{
+\sum_{y'\in Y} \sum _{i:1 \leq i \leq n \wedge F(x_i) \geq m} \hat{P}(y',x_i) \Pi ^n _{j=1} \hat{P} (x_j | y', x_i)
+}
+$\\
+Where $\hat{P}(\cdot)$ is the estimate of $P(\cdot)$, $F(\cdot)$ is the frequency of the agrument in the sample data, and $m$ is the user specified minimum frequency, usually set at 1.\\
 The computational complexity makes this technique infeasible for high-dimensional data but is linear with respect to the number of samples so can handle large amounts of training data. 
 \\
 Implementations:
