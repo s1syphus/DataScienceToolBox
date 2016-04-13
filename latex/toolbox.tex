@@ -1,0 +1,69 @@
+\documentclass{report}
+\usepackage{amsmath}
+\usepackage{dsfont}
+\usepackage{amssymb}
+\usepackage{enumerate}
+\usepackage{hyperref}
+
+\hypersetup{
+	colorlinks,
+	linkcolor=black
+}
+
+\pdfpagewidth 8.5in
+\pdfpageheight 11in
+
+
+\title{Data Science Toolbox}
+\author{
+	Mike Micatka
+}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+
+\renewcommand{\abstractname}{What is Data Science?}
+\begin{abstract}
+This is a work in progress. Mainly made for learning purposes. Hopelessly 
+abbreviated, will do my best to provide sources/other resources.
+\end{abstract}
+
+\chapter{Data Techniques}
+
+\chapter{Machine Learning Techniques}
+\section{Supervised Learning}
+	\subsection{Averaged One-Dependence Estimators (AODE)}
+Averaged One-Dependence Estimators is a probabilistic classification technique. It is an improvement on the \hyperref[subsec:bayesian_statistics]{Naive Bayes Estimator}. This technique produces class probabilities rather than single classes which allows more flexibility by having the end-user set the threshold for selection. The computational complexity for training is $O(ln^2)$ and $O(kn^2)$ for classificiation where $n$ is the number of features, $l$ is the number of training samples, and $k$ is the number of testing samples. \\
+Add in equation soon, too lazy to type it out now \\
+The computational complexity makes this technique infeasible for high-dimensional data but is linear with respect to the number of samples so can handle large amounts of training data. 
+\\
+Implementations:
+\begin{itemize}
+\item Weka
+\end{itemize}
+
+	\subsection{Bayesian Statistics}
+	\label{subsec:bayesian_statistics}
+
+	\subsection{Case-Based Reasoning}
+	\subsection{Gaussian Process Regression}
+	\subsection{Gene Expression Programming}
+	\subsection{Group Method of Data Handling (GMDH)}
+	\subsection{Inductive Logic Programming}
+
+	
+\section{Unsupervised Learning}
+
+\section{Semi-Supervised Learning}
+
+\section{Reinforcement Learning}
+
+\section{Deep Learning}
+
+\chapter{Choosing the Right Algorithm}
+
+\end{document}
+
