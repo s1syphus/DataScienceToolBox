@@ -2,6 +2,7 @@
 
 ##TODO
 
+* Change/fix/make up some sort of ordering. Alphabetical could be fine
 * Write descriptions of main ideas/purposes of general classes of machine learning algorithms
 * add more details/break down the classes into subclasses
 * add in optimizations of the major algorithms (not a priority)
